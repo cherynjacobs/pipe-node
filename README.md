@@ -7,13 +7,11 @@ curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
 chmod +x pop
 🔹 2️⃣ Make Directory
 ```bash
-Copy
-Edit
+
 mkdir download_cache
 🔹 3️⃣ Sign-up With Command
 ```bash
-Copy
-Edit
+
 ./pop --signup-by-referral-route d93ec7a125f095ab
 🔹 4️⃣ Start The Node
 bash
