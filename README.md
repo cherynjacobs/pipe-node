@@ -31,8 +31,10 @@ mkdir download_cache
   --ram 8 \              
   --max-disk 500 \       
   --cache-dir /data \    
-  --pubKey <YOUR_SOLANA_PUBLIC_KEY>  #dont forget to edit this 
+  --pubKey <YOUR_SOLANA_PUBLIC_KEY> 
 ```
+ #dont forget to edit the public key 
+ 
   🛠 Troubleshooting
 If you face any errors, try running:
 ```bash
