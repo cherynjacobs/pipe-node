@@ -9,9 +9,9 @@ chmod +x pop
 ```
 
 2️⃣ Make Directory
-
+```bash
 mkdir download_cache
-
+```
 3️⃣ Sign-up With Command
 
 ./pop --signup-by-referral-route d93ec7a125f095ab
