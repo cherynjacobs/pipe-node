@@ -1,39 +1,59 @@
-# pipe-node
-# Pipe Network Node Setup
-
-Follow these instructions to set up a Pipe Network Node.
-
-## 1️⃣ Install the `pop` Binary
-```bash
+Install
+bash
+Copy
+Edit
 curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
 chmod +x pop
-
-2️⃣ Create a Cache Directory
-```bash
+Make Directory
+bash
+Copy
+Edit
 mkdir download_cache
-3️⃣ Sign Up with Referral Code
-./pop --signup-by-referral-route 381fc9dcb6255802
-4️⃣ Start the Node
+Sign-up With Command
+bash
+Copy
+Edit
+./pop --signup-by-referral-route d93ec7a125f095ab
+Start The Node
+bash
+Copy
+Edit
 ./pop \
-  --ram 8 \              # Set RAM in GB  
-  --max-disk 500 \       # Max disk usage in GB  
-  --cache-dir /data \    # Cache location  
-  --pubKey <YOUR_SOLANA_PUBLIC_KEY>  # Your Solana wallet address
-🛠 Troubleshooting Command:
+  --ram 8 \              
+  --max-disk 500 \       
+  --cache-dir /data \    
+  --pubKey <YOUR_SOLANA_PUBLIC_KEY>
+🛠 Troubleshooting
+If you face any errors, try running:
 
-If you get any errors, use this:
+bash
+Copy
+Edit
 ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <YOUR_SOLANA_PUBLIC_KEY>
-5️⃣ Save Node Info (Important!)
+Save Node Info (Very Important!)
+bash
+Copy
+Edit
 nano ~/node_info.json
-Make any necessary changes, then press Ctrl + X, then Y, and Enter to save.
-6️⃣ Check Node Status
+After editing, press Ctrl + X, then Y, and Enter to save.
+
+Check Node Status
+bash
+Copy
+Edit
 ./pop --status
-7️⃣ Check Points Earned
+Check Points Earned
+bash
+Copy
+Edit
 ./pop --points
-8️⃣  Restart Node the Next Day
+Generate Referral Code
+bash
+Copy
+Edit
+./pop --gen-referral-route
+Restart Node Next Day
+bash
+Copy
+Edit
 ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <YOUR_SOLANA_PUBLIC_KEY>
-
-
-Docs- https://docs.pipe.network/devnet-2
-
-Check Points & Status From Dashboard -: https://dashboard.pipenetwork.com/node-lookup
