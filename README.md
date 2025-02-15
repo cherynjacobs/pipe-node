@@ -48,3 +48,9 @@ After editing, press Ctrl + X, then Y, and Enter to save.
 ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <YOUR_SOLANA_PUBLIC_KEY>
 ```
 
+Docs- https://docs.pipe.network/devnet-2
+
+Check Points & Status From Dashboard -: https://dashboard.pipenetwork.com/node-lookup
+```
+![image](https://github.com/user-attachments/assets/bea4bff1-020e-40dd-bb07-3bd827bfa6b1)
+
