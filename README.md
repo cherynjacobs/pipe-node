@@ -9,6 +9,7 @@ curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
 chmod +x pop
 
 2️⃣ Create a Cache Directory
+```bash
 mkdir download_cache
 3️⃣ Sign Up with Referral Code
 ./pop --signup-by-referral-route 381fc9dcb6255802
