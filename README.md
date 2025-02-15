@@ -5,11 +5,12 @@ Follow these steps to set up and run your node.
 ```bash
 curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
 chmod +x pop
-🔹 2️⃣ Make Directory
+
+##🔹 2️⃣ Make Directory
 ```bash
 
 mkdir download_cache
-🔹 3️⃣ Sign-up With Command
+##🔹 3️⃣ Sign-up With Command
 ```bash
 
 ./pop --signup-by-referral-route d93ec7a125f095ab
