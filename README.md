@@ -1,7 +1,15 @@
 # 🚀 Pipe Network Node Setup Guide  
 Follow these steps to set up and run your node.  
+## ⚠️ Prerequisites  
 
-## 1️⃣ Install  
+### **For Ubuntu Users**  
+✅ No extra setup required.  
+
+### **For Windows Users**  
+🔹 **Install Windows Subsystem for Linux (WSL):**
+To download wsl in windows you can watch videos in youtube there are plenty of them and its simple
+
+## 1️⃣ Install 
 
 ```bash
 curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
@@ -52,5 +60,5 @@ Docs- https://docs.pipe.network/devnet-2
 
 Check Points & Status From Dashboard -: https://dashboard.pipenetwork.com/node-lookup
 ```
-![image](https://github.com/user-attachments/assets/bea4bff1-020e-40dd-bb07-3bd827bfa6b1)
+
 
